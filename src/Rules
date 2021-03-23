@@ -1,0 +1,10 @@
+Rule 1 - Project Name should start with Capital
+Package Name - 
+bestbuy.com
+com.bestbuy.<Projectname>.modulename
+whether.net
+net.whether 
+
+com.h2kinfosys.learnJava.day01
+
+Rule 2- Java Class Names always starts with Capital
