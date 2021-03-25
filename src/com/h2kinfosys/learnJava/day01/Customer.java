@@ -34,8 +34,11 @@ public class Customer {
 		// Boolean
 		boolean flag = false;
 		
-		// HW 1 - Try to find all Wrapper Classes
-		// HW 2 - Print Max and Min Values - rishi.h2kinfosys@gmail.com
+		// customer name
+		String customerName = "David Burrow";
+		String null_str = null;
+		String space_string = " ";
+		String empty_string = "";
 	}
 	
 }
