@@ -1,0 +1,13 @@
+Sport - Parent
+name
+type
+numberOfHours()
+
+
+Two Child Classes - 
+
+Cricket
+	Constructor Chaining - Pass Name
+
+Tennis
+	Constructor Chaining - Pass Name
