@@ -11,3 +11,11 @@ Cricket
 
 Tennis
 	Constructor Chaining - Pass Name
+	
+	
+1. Rules of Overriding
+1a. ReferenceType and InstanceType
+2. How can a function avoid override
+3. Use of final 
+4. What is opposite to final - abstract 
+5. What is an Interface

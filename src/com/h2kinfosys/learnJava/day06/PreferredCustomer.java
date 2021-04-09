@@ -15,8 +15,28 @@ public class PreferredCustomer extends Customer{
 		System.out.println(this.firstName + " " + this.lastName);
 	}
 	
-	// Overriding
+	// 1. Access Modifier - cannot be more restrictive, you can increase visibility
+	// 2. Return type should be either same or co-variant (class, subclass)
+	// 3. Method name - exactly the same 
+	// 4. Parameters - exactly the same
+	// 5. Exception - or co-variant (class, subclass)
+	@Override
 	public float discount() {
 		return 5.0f;
 	}
+	
+	
+	@Override
+	public boolean processPromotions(String promoCode) {
+		super.processPromotions(promoCode);
+		System.out.println("Additional Discount with Promocode " + promoCode);
+		return true;
+	}
+	
+	
+	public void sendPromotionalEmails(String emailId) {
+		System.out.println("Promotional Email sent to " + emailId);
+	}
+	
+	
 }
