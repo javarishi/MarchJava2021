@@ -1,4 +1,7 @@
 package com.h2kinfosys.learnJava.day01;
+
+import com.h2kinfosys.learnJava.day07.Reachable;
+
 // class - is keyword to create Class
 public class Customer {
 
@@ -39,6 +42,8 @@ public class Customer {
 		String null_str = null;
 		String space_string = " ";
 		String empty_string = "";
+		
+		System.out.println(Reachable.companyName);
 	}
 	
 }
